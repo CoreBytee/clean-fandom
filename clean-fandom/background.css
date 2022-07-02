@@ -1,0 +1,48 @@
+html {
+    overflow: scroll !important;
+}
+
+.render-wiki-recommendations-right-rail {
+    visibility: hidden;
+}
+
+.render-wiki-recommendations {
+    visibility: hidden;
+}
+
+.global-navigation {
+    visibility: hidden;
+}
+
+.fandom-community-header {
+    visibility: hidden;
+}
+
+.WikiaBarWrapper {
+    visibility: hidden;
+}
+
+.mcf-wrapper {
+    visibility: hidden;
+}
+
+.mcf-en {
+    visibility: hidden !important;
+    height:0px
+}
+
+.community-header-wrapper {
+    height: 60px !important
+}
+
+.main-container {
+    margin-left:0 !important;
+    margin-right:0 !important;
+    width:100% !important;
+}
+
+.fandom-sticky-header {
+    -webkit-transform: translateY(100%) !important;
+    transform: translateY(100%) !important;
+    left: 0 !important;
+}

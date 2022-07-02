@@ -1,0 +1,20 @@
+{
+	"name": "Clean fandom",
+	"description": "Removes things from fandom that are annoying",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": [
+				"https://*.fandom.com/wiki/*"
+			],
+			"run_at": "document_idle",
+			"js": [
+				"background.js"
+			],
+			"css": [
+				"background.css"
+			]
+		}
+	]
+}
