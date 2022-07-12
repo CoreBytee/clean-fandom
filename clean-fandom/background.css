@@ -3,7 +3,11 @@ html {
 }
 
 .mw-notification-area {
-    padding-top: 50px
+    padding-top: 50px !important
+}
+
+.page__right-rail {
+    display: none;
 }
 
 .render-wiki-recommendations-right-rail {

@@ -4,5 +4,6 @@ async function sleep(ms) {
 
 (
     async function() {
+        //document.getElementsByClassName("page__right-rail")[0].remove()
     }
 )()
