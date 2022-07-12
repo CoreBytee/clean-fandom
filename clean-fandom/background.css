@@ -2,6 +2,10 @@ html {
     overflow: scroll !important;
 }
 
+.mw-notification-area {
+    padding-top: 50px
+}
+
 .render-wiki-recommendations-right-rail {
     visibility: hidden;
 }
